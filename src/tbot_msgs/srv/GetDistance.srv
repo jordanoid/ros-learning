@@ -1,0 +1,3 @@
+string name #name of the landmark
+---
+float64 distance #distance of the landmark

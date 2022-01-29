@@ -1,0 +1,4 @@
+<launch>
+    <node name="tennis_ball_publisher" pkg="ros_opencv_integration" type="tennis_ball_publisher.py"/>
+    <node name="tennis_ball_subscriber" pkg="ros_opencv_integration" type="tennis_ball_listener.py" output="screen"/>
+</launch>
